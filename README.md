@@ -2,7 +2,7 @@
 
 __This repository aims at implementing a method to identify the language a document is written in.__
 
-It supports the 20 different langauges:
+It supports 20 different langauges:
 
 ```
 arabic (ar), bulgarian (bg), german (de), modern greek (el), english (en), spanish (es), french (fr), hindi (hi), italian (it), japanese (ja), dutch (nl), polish (pl), portuguese (pt), russian (ru), swahili (sw), thai (th), turkish (tr), urdu (ur), vietnamese (vi), and chinese (zh).
@@ -12,7 +12,7 @@ arabic (ar), bulgarian (bg), german (de), modern greek (el), english (en), spani
 
 A jupyter notebook is provided to implement this task. It can be directly launched in Google Colab from here:
 
-- <a href="https://colab.research.google.com/github/dinalzein/LanguageDetection/blob/main/language_identification.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> for [Language Identification](https://huggingface.co/datasets/papluca/language-identification) dataset.  
+- <a href="https://colab.research.google.com/github/dinalzein/LanguageDetection/blob/main/language_identification.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> 
 
 
 ## Datasets
