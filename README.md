@@ -1,49 +1,43 @@
 # Language Detection
 
-__This repository aims at implementing a method to identify the language a document is written in.__
+__This repository aims at implementing a method to identify the language a document is written in. A simple demo is available [here](https://huggingface.co/spaces/dinalzein/LanguageIdentifier)__
 
-It supports 20 different langauges:
+It supports 20 different languages:
 
-* arabic (ar)
-* bulgarian (bg)
-* german (de)
-* modern greek (el)
-* english (en)
-* spanish (es)
-* french (fr)
-* hindi (hi)
-* italian (it)
-* japanese (ja)
-* dutch (nl)
-* polish (pl)
-* portuguese (pt)
-* russian (ru)
-* swahili (sw)
-* thai (th)
-* turkish (tr)
-* urdu (ur)
-* vietnamese (vi)
-* chinese (zh)
+* Arabic (ar)
+* Bulgarian (bg)
+* German (de)
+* Modern greek (el)
+* English (en)
+* Spanish (es)
+* French (fr)
+* Hindi (hi)
+* Italian (it)
+* Japanese (ja)
+* Dutch (nl)
+* Polish (pl)
+* Portuguese (pt)
+* Russian (ru)
+* Swahili (sw)
+* Thai (th)
+* Turkish (tr)
+* Urdu (ur)
+* Vietnamese (vi)
+* Chinese (zh)
 
 A jupyter notebook to implement this task is provided and can be directly launched in Google Colab from here: <a href="https://colab.research.google.com/github/dinalzein/LanguageDetection/blob/main/language_identification.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-
 
 ## Datasets
 Download the train, valid, and test data files from [here](https://huggingface.co/datasets/papluca/language-identification/tree/main) and assert them in [data](./data) in the same directory of the jupyter notebook.
 
+## Model Used
+The model used in this task is [XLM-RoBERTa](https://huggingface.co/xlm-roberta-base) transformer model with a classification head on top.
 
-### Citation
-To cite this work in your publications in BibTeX format:
+## Fine-tuned Model
+You can download it from [here](https://huggingface.co/dinalzein/xlm-roberta-base-finetuned-language-identification)
 
-```
-@inproceedings{wolf2020transformers,
-  title={Transformers: State-of-the-art natural language processing},
-  author={Wolf, Thomas and Debut, Lysandre and Sanh, Victor and Chaumond, Julien and Delangue, Clement and Moi, Anthony and Cistac, Pierric and Rault, Tim and Louf, R{\'e}mi and Funtowicz, Morgan and others},
-  booktitle={Proceedings of the 2020 conference on empirical methods in natural language processing: system demonstrations},
-  pages={38--45},
-  year={2020}
-}
-```
+## Demo
+You can try it [here](https://huggingface.co/spaces/dinalzein/LanguageIdentifier)
 
 ### Used materials and 3rd party code
 The experiments are based on the [*huggingface*](https://github.com/huggingface/transformers) library.
