@@ -1,4 +1,4 @@
-# Language Detection
+# Language Identifier
 
 __This repository aims at implementing a method to identify the language a document is written in. A simple demo is available [here](https://huggingface.co/spaces/dinalzein/LanguageIdentifier).__
 
